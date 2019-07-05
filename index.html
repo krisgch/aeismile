@@ -1,98 +1,29 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title> Aei and Smile Story </title>
-<link rel='stylesheet' type='text/css' href='css/style.css'>
-<link rel='stylesheet' type='text/css' href='css/lightbox.min.css'>
-<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-<script type='text/javascript' src='js/lightbox-plus-jquery.min.js'></script>
+  <title>Log in to Aei & Smile Gallery </title>
+  <link rel='stylesheet' type='text/css' href='css/loginstyle.css'>
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
+
 <body>
-<h1> Aei and Smile Story</h1>
-<!--<audio controls autoplay style='float:right'>
-	<source src='songs/2.mp3' type='audio/mpeg'>
-	<source src='songs/1.mp3' type='audio/mpeg'>
-</audio>
-<br> -->
-<button class='button' onclick="window.location.href='gallery.html'">Go to gallery</button>
+    <br><br>
+	<h1 style='text-align:center;'>Login to Aei & Smile Gallery </h1>
+    <form method='post' action='login.php'>
 
-	<div class='gallery'>
+		<div class='container'>
+      <img src="images/70small.jpg">
+      <br>
+			<label for='userid'><b>Username</b></label>
+			<input type='text' name='userid' placeholder='Enter Username' required>
 
-		<a href='1.html'  ><img src='images/1small.jpg'></a>
-		<a href='2.html' ><img src='images/2small.jpg'></a>
-		<a href='3.html' ><img src='images/3small.jpg'></a>
-		<a href='4.html' ><img src='images/4small.jpg'></a>
-		<a href='5.html' ><img src='images/5small.jpg'></a>
-		<a href='6.html' ><img src='images/6small.jpg'></a>
-		<a href='7.html' ><img src='images/7small.jpg'></a>
-		<a href='8.html' ><img src='images/8small.jpg'></a>
-		<a href='9.html' ><img src='images/9small.jpg'></a>
-		<a href='10.html' ><img src='images/10small.jpg'></a>
-		<a href='11.html' ><img src='images/11small.jpg'></a>
-		<a href='12.html' ><img src='images/12small.jpg'></a>
-		<a href='13.html' ><img src='images/13small.jpg'></a>
-		<a href='14.html' ><img src='images/14small.jpg'></a>
-		<a href='15.html' ><img src='images/15small.jpg'></a>
-		<a href='16.html' ><img src='images/16small.jpg'></a>
-		<a href='17.html' ><img src='images/17small.jpg'></a>
-		<a href='18.html' ><img src='images/18small.jpg'></a>
-		<a href='19.html' ><img src='images/19small.jpg'></a>
-		<a href='20.html' ><img src='images/20small.jpg'></a>
-		<a href='21.html' ><img src='images/21small.jpg'></a>
-		<a href='22.html' ><img src='images/22small.jpg'></a>
-		<a href='23.html' ><img src='images/23small.jpg'></a>
-		<a href='24.html' ><img src='images/24small.jpg'></a>
-		<a href='25.html' ><img src='images/25small.jpg'></a>
-		<a href='26.html' ><img src='images/26small.jpg'></a>
-		<a href='27.html' ><img src='images/27small.jpg'></a>
-		<a href='28.html' ><img src='images/28small.jpg'></a>
-		<a href='29.html' ><img src='images/29small.jpg'></a>
-		<a href='30.html' ><img src='images/30small.jpg'></a>
-		<a href='31.html' ><img src='images/31small.jpg'></a>
-		<a href='32.html' ><img src='images/32small.jpg'></a>
-		<a href='33.html' ><img src='images/33small.jpg'></a>
-		<a href='34.html' ><img src='images/34small.jpg'></a>
-		<a href='35.html' ><img src='images/35small.jpg'></a>
-		<a href='36.html' ><img src='images/36small.jpg'></a>
-		<a href='37.html' ><img src='images/37small.jpg'></a>
-		<a href='38.html' ><img src='images/38small.jpg'></a>
-		<a href='39.html' ><img src='images/39small.jpg'></a>
-		<a href='40.html' ><img src='images/40small.jpg'></a>
-		<a href='41.html' ><img src='images/41small.jpg'></a>
-		<a href='42.html' ><img src='images/42small.jpg'></a>
-		<a href='43.html' ><img src='images/43small.jpg'></a>
-		<a href='44.html' ><img src='images/44small.jpg'></a>
-		<a href='45.html' ><img src='images/45small.jpg'></a>
-		<a href='46.html' ><img src='images/46small.jpg'></a>
-		<a href='47.html' ><img src='images/47small.jpg'></a>
-		<a href='48.html' ><img src='images/48small.jpg'></a>
-		<a href='49.html' ><img src='images/49small.jpg'></a>
-		<a href='50.html' ><img src='images/50small.jpg'></a>
-		<a href='51.html' ><img src='images/51small.jpg'></a>
-		<a href='52.html' ><img src='images/52small.jpg'></a>
-		<a href='53.html' ><img src='images/53small.jpg'></a>
-		<a href='54.html' ><img src='images/54small.jpg'></a>
-		<a href='55.html' ><img src='images/55small.jpg'></a>
-		<a href='56.html' ><img src='images/56small.jpg'></a>
-		<a href='57.html' ><img src='images/57small.jpg'></a>
-		<a href='58.html' ><img src='images/58small.jpg'></a>
-		<a href='59.html' ><img src='images/59small.jpg'></a>
-		<a href='60.html' ><img src='images/60small.jpg'></a>
-		<a href='61.html' ><img src='images/61small.jpg'></a>
-		<a href='62.html' ><img src='images/62small.jpg'></a>
-		<a href='63.html' ><img src='images/63small.jpg'></a>
-		<a href='64.html' ><img src='images/64small.jpg'></a>
-		<a href='65.html' ><img src='images/65small.jpg'></a>
-		<a href='66.html' ><img src='images/66small.jpg'></a>
-		<a href='67.html' ><img src='images/67small.jpg'></a>
-		<a href='68.html' ><img src='images/68small.jpg'></a>
-		<a href='69.html' ><img src='images/69small.jpg'></a>
-		<a href='70.html' ><img src='images/70small.jpg'></a>
-		<a href='71.html' ><img src='images/71small.jpg'></a>
-		<a href='72.html' ><img src='images/72small.jpg'></a>
-		
+      <label for='password'><b>Password</b></label>
+			<input type= 'password' placeholder='Enter Password' name='password' required >
 
-	
-	</div>
-	
+			<button type="submit" class='button'>Login</button>
+		</div>
+
+	  </form>
 </body>
 </html>
+
